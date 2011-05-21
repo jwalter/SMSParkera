@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" android:text="@string/lblSelectParking"/>
+<Spinner android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/spinner1" android:entries="@array/cars_array"></Spinner>
+<Button android:id="@+id/btnAkilles" android:layout_height="wrap_content" android:text="@string/parkAkilles" android:layout_width="fill_parent"></Button>
+<Button android:id="@+id/btnBaggen" android:layout_height="wrap_content" android:text="@string/parkBaggen" android:layout_width="fill_parent"></Button>
+<Button android:id="@+id/btnDetektiven" android:layout_height="wrap_content" android:text="@string/parkDetektiven" android:layout_width="fill_parent"></Button>
+<Button android:id="@+id/btnDruvan" android:layout_height="wrap_content" android:text="@string/parkDruvan" android:layout_width="fill_parent"></Button>
+</LinearLayout>

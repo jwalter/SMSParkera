@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">SMSParkera</string>
+    <string name="parkAkilles">Akilles</string>
+    <string name="parkBaggen">Baggen</string>
+    <string name="parkDetektiven">Detektiven</string>
+    <string name="parkDruvan">Druvan</string>
+    <string name="lblSelectParking">Välj parkering</string>
+    <string-array name="cars_array">
+        <item>FMF 488</item>
+        <item>TRA 516</item>
+    </string-array>
+        <string name="lblSendSms">Skicka SMS till</string>
+        <string name="btnSend">Skicka</string>
+</resources>
